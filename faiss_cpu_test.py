@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 dimension = 128
-num_vectors = 1000000
+num_vectors = 10000
 query_vector = np.random.rand(dimension).astype('float32')
 data = np.random.rand(num_vectors, dimension).astype('float32')
 
